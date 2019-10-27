@@ -1,0 +1,120 @@
+/* TYPE SELECTORS */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 500%;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding: 5px;
+  border: solid 2px;
+  display: inline-block;
+  transition:all 0.85s;
+}
+
+h2:hover {
+  color: white;
+  border-color: white;
+  background-color: black;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+}
+
+hr
+{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: black;
+  border-width: 5px;
+  width: 10%;
+}
+
+/* ClASS SELECTORS */
+
+.a-programmer {
+  margin-top: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bottom-container {
+
+}
+
+.middle-container {
+
+}
+
+.pics-programming {
+  height: 120px;
+}
+
+.programming-flag {
+  position: relative;
+  height:120px;
+
+}
+
+.pics-drawer {
+  position: relative;
+  height: 200px;
+}
+
+.pic-drawer-1 {
+  height: auto;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.pic-drawer-2 {
+  position: absolute;
+  height: auto;
+  width: 200px;
+  border-radius: 50%;
+  opacity:0;
+  transition:all 0.85s;
+}
+
+.pic-drawer-2:hover {
+  opacity:1;
+}
+
+.pics-profile {
+  position: relative;
+  height: 200px;
+}
+
+.pic-profile-1 {
+  height: auto;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.pic-profile-2 {
+  position: absolute;
+  left : 50%;
+  margin-left: -100px;
+  height: auto;
+  width: 200px;
+  opacity:0;
+  transition:all 0.85s;
+}
+
+.pic-profile-2:hover {
+  opacity:1;
+}
+
+/* ID SELECTORS */
