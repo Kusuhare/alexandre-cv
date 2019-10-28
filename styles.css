@@ -1,4 +1,26 @@
 /* TYPE SELECTORS */
+
+a {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  transition: all 0.85s;
+}
+
+a:hover {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  border: solid black;
+  border-radius: 2px;
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+
 body {
   margin: 0;
   text-align: center;
